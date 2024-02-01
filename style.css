@@ -16,7 +16,6 @@ body {
 
 .image-generator {
     height: 40vh;
-    background: #82521e;
     display: flex;
     position: relative;
     align-items: center;
