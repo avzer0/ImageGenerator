@@ -5,12 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Image Generator</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <section class="image-generator">
         <div class="content">
-            <h1>AI</h1>
-            <h2>Image Generator</h2>
+            <h1>Image Generator</h1>
+            <p>Create AI generated images using your own prompts.</p>
+            <form action="#" class="create-form">
+                <input type="text" class="prompt-input" placeholder="What is the image you wanna create?">
+                <div class="controls">
+                    <select class="img-quantity">
+                        <option value="1">1 Image</option>
+                        <option value="2">2 Images</option>
+                        <option value="3">3 Images</option>
+                        <option value="4">4 Images</option>
+                        <option value="5" selected>5 Images</option>                 
+                    </select>
+                    <button type="submit" class="create-btn">Create</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="image-gallery">
+        <div class="image-card">
+            <img src="Imgs/1.jpg" alt="image">
+            <a href="#" class="download-btn">
+                <img src="Imgs/arrow.svg" alt="download-icon">
+            </a>
+        </div>
+        <div class="image-card">
+            <img src="Imgs/2.jpg" alt="image">
+            <a href="#" class="download-btn">
+                <img src="Imgs/arrow.svg" alt="download-icon">
+            </a>
+        </div>
+        <div class="image-card">
+            <img src="Imgs/3.jpg" alt="image">
+            <a href="#" class="download-btn">
+                <img src="Imgs/arrow.svg" alt="download-icon">
+            </a>
+        </div>
+        <div class="image-card">
+            <img src="Imgs/4.jpg" alt="image">
+            <a href="#" class="download-btn">
+                <img src="Imgs/arrow.svg" alt="download-icon">
+            </a>
+        </div>
+        <div class="image-card">
+            <img src="Imgs/5.jpg" alt="image">
+            <a href="#" class="download-btn">
+                <img src="Imgs/arrow.svg" alt="download-icon">
+            </a>
         </div>
     </section>
 </body>
