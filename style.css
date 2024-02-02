@@ -107,7 +107,7 @@ body {
     justify-content: center;
     gap: 15px;
     padding: 0 15px;
-    margin: 50px auto;
+    margin: 20px auto;
 }
 
 .image-gallery .image-card {
@@ -119,8 +119,6 @@ body {
     justify-content: center;
     overflow: hidden;
     position: relative;
-    background: rgba(255, 255, 255, 0.3);
-    box-shadow: rgba(88, 88, 88, 0.3);
 }
 
 .image-gallery .image-card img {
@@ -143,7 +141,8 @@ body {
     border-radius: 50%;
 }
 
-.image-gallery .image-card:hover .download-btn {
+
+.image-gallery .image-card:not(.image-card.loading):hover .download-btn {
     display: flex;
 }
 
